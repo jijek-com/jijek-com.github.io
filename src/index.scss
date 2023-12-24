@@ -1,0 +1,17 @@
+@import url('../src/assets/styles/root.scss');
+@import url('../src/assets/styles/reset.scss');
+@import url('../src/assets/styles/btn.scss');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

@@ -63,7 +63,7 @@
 @media screen and (max-width: 1024px) {
     header {
         margin-top: 0;
-        height: 100vh;
+        min-height: 100vh;
     }
 
     .header__socials {
@@ -86,6 +86,7 @@
 
         &__cta {
             gap: 1rem;
+            margin-bottom: 2rem;
         }
     }
 }

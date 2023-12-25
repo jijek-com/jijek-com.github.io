@@ -1,0 +1,22 @@
+.expirience {
+    &__container {
+        margin-top: 2rem;
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h4 {
+        margin-bottom: 0.7rem;
+    }
+
+    p {
+        margin-bottom: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .expirience__container {
+        grid-template-columns: 1fr;
+    }
+}

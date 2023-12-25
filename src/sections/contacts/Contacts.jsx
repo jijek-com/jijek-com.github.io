@@ -3,10 +3,10 @@ import "./Contacts.scss";
 
 const Contacts = () => {
     return (
-        <section className="contact" id="contacts">
+        <section className="contacts" id="contacts">
             <h2>Мои контакты</h2>
             <p>Напишите мне сообщение по любой из ссылок ниже!</p>
-            <div className="container contact__container" data-aos="fade-up">
+            <div className="container contacts__container" data-aos="fade-up">
                 {contacts.map((item) => (
                     <a
                         key={item.id}

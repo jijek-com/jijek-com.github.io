@@ -37,7 +37,7 @@ const Header = () => {
                     <p>Открыта для изучения новых технологий и возможности учавствовать в интересных проектах, позволяющих расширить мою техническую экспертизу</p>
 
                     <div className="header__cta">
-                        <a className='btn primary' href="#contact">Подробнее</a>
+                        <a className='btn primary' href="#contacts">Подробнее</a>
                         <a className='btn light'
                         target="_blank"
                         rel="noopener noreferrer"

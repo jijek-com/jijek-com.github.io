@@ -1,5 +1,5 @@
-import Image1 from "../assets/images/image1.png";
-import Image2 from "../assets/images/image2.png";
+import Image2 from "../assets/images/image1.png";
+import Image1 from "../assets/images/image2.png";
 
 const portfolio = [
   {

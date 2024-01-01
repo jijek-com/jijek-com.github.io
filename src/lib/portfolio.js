@@ -1,5 +1,6 @@
 import Image2 from "../assets/images/image1.png";
 import Image1 from "../assets/images/image2.png";
+import Image3 from "../assets/images/image3.png";
 
 const portfolio = [
   {
@@ -23,6 +24,17 @@ const portfolio = [
     demo: "https://bd-party.vercel.app/",
     isShowGitBtn: false,
     github: "https://github.com/jijek-com/bd-party",
+  },
+  {
+    id: 3,
+    category: "Other",
+    image: Image3,
+    title: "LK Best Discount",
+    desc: "Лендинг для личного кабинета компании Best Discount. С использованием Бэм, scss, javascript",
+    tags: ['Scss', 'Javascript'],
+    demo: "https://bd-my-page.vercel.app/",
+    isShowGitBtn: false,
+    github: "https://github.com/jijek-com/bd-myPage",
   }
 ];
 

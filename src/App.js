@@ -12,8 +12,6 @@ import Theme from './theme/Theme';
 
 import { useThemeContext } from './context/theme-context';
 
-import './App.css';
-
 function App() {
   const { themeState } = useThemeContext();
 

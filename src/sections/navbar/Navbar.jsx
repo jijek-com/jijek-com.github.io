@@ -1,7 +1,10 @@
+import Scrollspy from "react-scrollspy";
 import { IoIosColorPalette } from "react-icons/io";
 
 import { useModalContext } from '../../context/modal-context';
 import navbar from '../../lib/navbar';
+
+import NavigationItem from './NavigationItem';
 
 import './Navbar.scss';
 
@@ -13,13 +16,15 @@ const Navbar = () => {
             <div className="container nav__container">
                 <a className="nav__logo" href="index.html">JijekCom</a>
 
-                <ul className="nav__menu">
-                    {navbar.map(item => (
-                        <li key={item.id}>
-                            <a href={item.link}>{item.title}</a>
-                        </li>
+                <Scrollspy
+                    offset={-400}
+                    className="nav__menu"
+                    items={["header", "education", "expirience", "portfolio", "contacts"]}
+                    currentClassName="active">
+                     {navbar.map((item) => (
+                        <NavigationItem key={item.id} item={item} />
                     ))}
-                </ul>
+                </Scrollspy>
 
                 <button onClick={showModalHandler}>
                     <IoIosColorPalette />

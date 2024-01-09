@@ -20,23 +20,23 @@ function App() {
   const mainRef = useRef();
 
   return (
-    <main className={`${themeState.primary} ${themeState.background}`}
-    ref={mainRef}>
-      <Navbar />
+      <main className={`${themeState.primary} ${themeState.background}`}
+      ref={mainRef}>
+        <Navbar />
 
-      <Header />
-      <Education />
+        <Header />
+        <Education />
 
-      <Expirience />
-      <Portfolio />
+        <Expirience />
+        <Portfolio />
 
-      <Contacts />
-      <Footer />
+        <Contacts />
+        <Footer />
 
-      <Theme />
+        <Theme />
 
-      <FloatingNav />
-    </main>
+        <FloatingNav />
+      </main>
   );
 }
 

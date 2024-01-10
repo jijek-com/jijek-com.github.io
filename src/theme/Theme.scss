@@ -82,7 +82,8 @@
     background: white;
     border-radius: var(--border-radius-3);
     cursor: pointer;
-    border: 2px solid var(--color-secondary)
+    border: 2px solid var(--color-secondary);
+    transition: var(--transition);
 }
 
 .theme__background-colors .bg-2 {

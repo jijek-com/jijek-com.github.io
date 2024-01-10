@@ -3,7 +3,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #dedede;
+    background: var(--color-light);
     z-index: 200;
     text-align: center;
     box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.2);
@@ -14,17 +14,6 @@
   
 @keyframes animateModal {
     to {opacity: 1}
-}
-
-.card.theme__modal:hover {
-    background: #dedede;
-}
-  
-.card.theme__modal small {
-    margin-top: 0.6rem;
-    display: block;
-    width: 80%;
-    margin-inline: auto;
 }
 
 .theme__primary-wrapper {
@@ -44,6 +33,16 @@
     aspect-ratio: 1/1;
     border-radius: 50%;
     cursor: pointer;
+    border: 5px solid transparent;
+    transition: var(--transition);
+}
+
+.theme__modal .theme__primary-colors button.active {
+    border: 5px solid var(--color-secondary);
+}
+
+.theme__modal .theme__background-colors button.active {
+    border: 2px solid var(--color-primary);
 }
 
 .theme__primary-colors .color-1 {
@@ -83,6 +82,7 @@
     background: white;
     border-radius: var(--border-radius-3);
     cursor: pointer;
+    border: 2px solid var(--color-secondary)
 }
 
 .theme__background-colors .bg-2 {

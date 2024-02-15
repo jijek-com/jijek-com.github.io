@@ -9,15 +9,23 @@ const Expirience = () => {
             <h2>Опыт работы</h2>
 
             <div className="container expirience__container" data-aos="fade-up">
-                {expirience.map((item) => (
-                    <Card key={item.id} className="expirience light">
-                        <div className="expirience__details">
-                            <h4>{item.spec} ○ {item.title} ○ ({item.date})</h4>
-                            <p>{item.desc}</p>
 
-                            <a className='btn' href={item.link}>Перейти</a>
+                <div class="expirience__line"></div>
+
+                {expirience.map((item) => (
+    
+                    <div key={item.id} class="expirience__notification">
+                        <div class="expirience__circle"></div>
+
+                        <div class="expirience__txt">
+                            <h4 >{item.spec} ○ {item.title} ○ ({item.date})</h4>
+                            <div class="expirience__comment">
+                                <span>{item.desc}</span>
+                            </div>
+
+                            <a className='btn expirience__btn' href={item.link}>Перейти</a>
                         </div>
-                    </Card>
+                    </div>
                 ))}
             </div>
         </section>

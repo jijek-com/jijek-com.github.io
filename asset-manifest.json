@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.77d7d486.css",
-    "main.js": "/static/js/main.d071944c.js",
-    "static/media/image1.png": "/static/media/image1.8594b1aeecff7c5e3ea9.png",
-    "static/media/image3.png": "/static/media/image3.65cfd70c1c604fc7815d.png",
-    "static/media/cv.pdf": "/static/media/cv.c237dcda70d379a3429d.pdf",
-    "static/media/image2.png": "/static/media/image2.2b579512052a1bb2372b.png",
-    "index.html": "/index.html",
-    "main.77d7d486.css.map": "/static/css/main.77d7d486.css.map",
-    "main.d071944c.js.map": "/static/js/main.d071944c.js.map"
+    "main.css": "./jijek-com.github.io/static/css/main.77d7d486.css",
+    "main.js": "./jijek-com.github.io/static/js/main.f88781ac.js",
+    "static/media/image1.png": "./jijek-com.github.io/static/media/image1.8594b1aeecff7c5e3ea9.png",
+    "static/media/image3.png": "./jijek-com.github.io/static/media/image3.65cfd70c1c604fc7815d.png",
+    "static/media/cv.pdf": "./jijek-com.github.io/static/media/cv.c237dcda70d379a3429d.pdf",
+    "static/media/image2.png": "./jijek-com.github.io/static/media/image2.2b579512052a1bb2372b.png",
+    "index.html": "./jijek-com.github.io/index.html",
+    "main.77d7d486.css.map": "./jijek-com.github.io/static/css/main.77d7d486.css.map",
+    "main.f88781ac.js.map": "./jijek-com.github.io/static/js/main.f88781ac.js.map"
   },
   "entrypoints": [
     "static/css/main.77d7d486.css",
-    "static/js/main.d071944c.js"
+    "static/js/main.f88781ac.js"
   ]
 }

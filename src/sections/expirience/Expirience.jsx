@@ -1,4 +1,3 @@
-import Card from '../../components/card/Card';
 import expirience from '../../lib/expirience';
 
 import './Expirience.scss';

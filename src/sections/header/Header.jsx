@@ -40,8 +40,9 @@ const Header = () => {
                         <a className='btn primary' href="#contacts">Подробнее</a>
                         <a className='btn light'
                         target="_blank"
+
                         rel="noopener noreferrer"
-                        href={cv} download>Download CV <HiDownload/></a>
+                        href={cv} download="Maiseeva Evgeniia">Download CV <HiDownload/></a>
                     </div> 
                 </div>
             </div>

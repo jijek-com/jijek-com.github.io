@@ -24,13 +24,10 @@ function App() {
 
         <Header />
         <Education />
-
         <Expirience />
         <Portfolio />
-
         <Contacts />
         <Footer />
-
         <Theme />
 
         <FloatingNav />

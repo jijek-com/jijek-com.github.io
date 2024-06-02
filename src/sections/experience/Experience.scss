@@ -1,4 +1,4 @@
-.expirience {
+.experience {
     &__container {
         position: relative;
         margin-top: 2rem;
@@ -54,7 +54,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .expirience__container {
+    .experience__container {
         grid-template-columns: 1fr;
     }
 }

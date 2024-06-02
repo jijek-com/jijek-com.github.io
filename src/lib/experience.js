@@ -1,4 +1,4 @@
-const expirience = [
+const experience = [
     {
         id: 1,
         title: 'Мобильные ТелеСистемы (МТС)',
@@ -33,4 +33,4 @@ const expirience = [
     }
 ];
 
-export default expirience;
+export default experience;

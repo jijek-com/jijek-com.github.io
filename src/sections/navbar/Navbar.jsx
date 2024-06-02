@@ -19,7 +19,7 @@ const Navbar = () => {
                 <Scrollspy
                     offset={-400}
                     className="nav__menu"
-                    items={["header", "education", "expirience", "portfolio", "contacts"]}
+                    items={["header", "education", "experience", "portfolio", "contacts"]}
                     currentClassName="active">
                      {navbar.map((item) => (
                         <NavigationItem key={item.id} item={item} />

@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import Navbar from './sections/navbar/Navbar';
 import Header from './sections/header/Header';
 import Education from './sections/education/Education';
-import Expirience from './sections/expirience/Expirience';
+import Experience from './sections/experience/experience';
 import Portfolio from './sections/portfolio/Portfolio';
 import Contacts from './sections/contacts/Contacts';
 import Footer from './sections/footer/Footer';
@@ -24,7 +24,7 @@ function App() {
 
         <Header />
         <Education />
-        <Expirience />
+        <Experience />
         <Portfolio />
         <Contacts />
         <Footer />

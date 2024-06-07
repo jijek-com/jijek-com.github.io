@@ -21,6 +21,7 @@ const Footer = () => {
                     href={social.link}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={social.ariaLabel}
                     >
                     {social.icon}
                     </a>

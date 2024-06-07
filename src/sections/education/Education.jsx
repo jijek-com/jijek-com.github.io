@@ -13,7 +13,7 @@ const Education = () => {
                 <Card key={item.id} className="education">
                     <div className="education__icon">{item.icon}</div>
                     <div className="education__details">
-                    <h4>{item.title}</h4>
+                    <p className='education__title'>{item.title}</p>
                     <p>{item.desc}</p>
                     </div>
                 </Card>

@@ -13,6 +13,7 @@ const Contacts = () => {
                         href={item.link}
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label={item.ariaLabel}
                     >
                         {item.icon}
                     </a>

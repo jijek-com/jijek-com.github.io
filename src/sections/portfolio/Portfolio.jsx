@@ -13,7 +13,7 @@ const Portfolio = () => {
     const categories = portfolio.map((item) => item.category);
     const uniqueCategories = ["All", ...new Set(categories)];
   
-    const filterProjecstHandler = (category) => {
+    const filterProjectsHandler = (category) => {
       if (category === "All") {
         setProjects(portfolio);
         return;
@@ -32,7 +32,7 @@ const Portfolio = () => {
             <div className="container portfolio__container">
                 <ProjectsCategories
                 categories={uniqueCategories}
-                onFilterProjects={filterProjecstHandler}
+                onFilterProjects={filterProjectsHandler}
                 />
                 <Projects projects={projects} />
             </div>

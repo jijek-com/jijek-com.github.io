@@ -17,7 +17,7 @@ const Experience = () => {
                         <div className="experience__circle"></div>
 
                         <div className="experience__txt">
-                            <h4 >{item.spec} ○ {item.title} ○ ({item.date})</h4>
+                            <p className="experience__title">{item.spec} ○ {item.title} ○ ({item.date})</p>
                             <div className="experience__comment">
                                 <span>{item.desc}</span>
                             </div>

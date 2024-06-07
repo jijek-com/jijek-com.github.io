@@ -26,7 +26,7 @@ const Navbar = () => {
                     ))}
                 </Scrollspy>
 
-                <button onClick={showModalHandler}>
+                <button onClick={showModalHandler} aria-label="change background and font size">
                     <IoIosColorPalette />
                 </button>
             </div>

@@ -23,6 +23,7 @@ const Header = () => {
                             href={item.link}
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label={item.ariaLabel}
                         >
                         {item.icon}
                       </a>
@@ -31,7 +32,7 @@ const Header = () => {
 
                 <div className="header__info">
                     <h1>Frontend Developer</h1>
-                    <h3>Привет, я Евгения</h3>
+                    <p>Привет, я Евгения</p>
                     <p>Занимаю должность Frontend Developer с более чем 4-летним опытом в коммерческой разработке, 
                         специализируясь на верстке и разработке интерактивных пользовательских интерфейсов. 
                         Обладаю глубокими знаниями JavaScript, а также опытом работы с фреймворками Angular и React.</p>

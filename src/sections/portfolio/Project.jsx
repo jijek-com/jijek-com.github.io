@@ -4,7 +4,7 @@ const Project = ({ project }) => {
   return (
     <Card className="portfolio__project">
       <div className="portfolio__project-image">
-        <img loading='lazy' height="180" src={project.image} alt={project.title} />
+        <img loading="lazy" height="180" src={project.image} alt={project.title} />
       </div>
       <p className="portfolio__title">{project.title}</p>
       <p>{project.desc}</p>

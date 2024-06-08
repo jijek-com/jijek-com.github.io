@@ -22,7 +22,7 @@ const Experience = () => {
                                 <span>{item.desc}</span>
                             </div>
 
-                            <a className='btn experience__btn' href={item.link}>Перейти</a>
+                            <a className="btn experience__btn" href={item.link}>Перейти</a>
                         </div>
                     </div>
                 ))}

@@ -14,7 +14,7 @@ const Header = () => {
       }, []);
       
     return (
-        <section id="header" className='header'>
+        <section id="header" className="header">
             <div className="container header__container">
                 <div className="header__socials">
                     {header.map(item => (
@@ -32,8 +32,8 @@ const Header = () => {
 
                 <div className="header__info">
                     <h1>Frontend Developer</h1>
-                    <p>Привет, я Евгения</p>
-                    <p>Занимаю должность Frontend Developer с более чем 4-летним опытом в коммерческой разработке, 
+
+                    <p>Привет, я Евгения. Занимаю должность Frontend Developer с более чем 4-летним опытом в коммерческой разработке, 
                         специализируясь на верстке и разработке интерактивных пользовательских интерфейсов. 
                         Обладаю глубокими знаниями JavaScript, а также опытом работы с фреймворками Angular и React.</p>
                     <p>Я ценю возможности для интеллектуального и профессионального роста. Мне нравится изучать новые 
@@ -45,8 +45,8 @@ const Header = () => {
                         развиваться как специалист.</p>    
              
                     <div className="header__cta">
-                        <a className='btn primary' href="#contacts">Подробнее</a>
-                        <a className='btn light'
+                        <a className="btn primary" href="#contacts">Подробнее</a>
+                        <a className="btn light"
                         target="_blank"
 
                         rel="noopener noreferrer"

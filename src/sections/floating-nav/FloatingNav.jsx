@@ -5,7 +5,7 @@ import "./FloatingNav.scss";
 
 const FloatingNav = () => {
   return (
-    <ul id="floating__nav">
+    <div id="floating__nav">
       <Scrollspy
         offset={-400}
         className="scrollspy"
@@ -16,7 +16,7 @@ const FloatingNav = () => {
           <Nav key={item.id} item={item} />
         ))}
       </Scrollspy>
-    </ul>
+    </div>
   );
 };
 

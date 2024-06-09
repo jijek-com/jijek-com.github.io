@@ -1,10 +1,29 @@
 {
   "short_name": "portfolio jijek-com",
   "name": "portfolio jijek-com",
+  "description": "progressive web application portfolio jijek-com",
   "icons": [
     {
+      "src": "icon16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon24.png",
+      "sizes": "24x24",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "64x64 32x32",
       "type": "image/x-icon"
     },
     {
@@ -24,5 +43,7 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
+  "lang": "en-US",
+  "orientation": "any",
   "prefer_related_applications": true
 }

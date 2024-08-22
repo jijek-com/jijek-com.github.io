@@ -26,7 +26,7 @@ const Portfolio = () => {
     };
 
     return (
-        <section id="portfolio">
+        <article id="portfolio">
             <h2>Портфолио</h2>
 
             <div className="container portfolio__container">
@@ -36,7 +36,7 @@ const Portfolio = () => {
                 />
                 <Projects projects={projects} />
             </div>
-        </section>
+        </article>
     );
 }
 

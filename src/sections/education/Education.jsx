@@ -5,7 +5,7 @@ import './Education.scss';
 
 const Education = () => {
     return (
-        <section className="education" id="education">
+        <article className="education" id="education">
             <h2>Образование</h2>
 
             <div className="container education__container" data-aos="fade-up">
@@ -19,7 +19,7 @@ const Education = () => {
                 </Card>
                 ))}
             </div>
-        </section>
+        </article>
     );
 }
 

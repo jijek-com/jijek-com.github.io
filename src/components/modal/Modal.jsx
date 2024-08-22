@@ -15,7 +15,7 @@ const Modal = ({ className, children }) => {
       {showModal &&
         ReactDOM.createPortal(
           <>
-            <section id="backdrop" onClick={closeModalHandler}></section>
+            <article id="backdrop" onClick={closeModalHandler}></article>
             <Card className={className}>{children}</Card>
           </>,
           document.querySelector("#overlays")

@@ -1,7 +1,6 @@
-@import url('../src/assets/styles/root.scss');
-@import url('../src/assets/styles/reset.scss');
-@import url('../src/assets/styles/btn.scss');
-
+@import url("../src/assets/styles/root.scss");
+@import url("../src/assets/styles/reset.scss");
+@import url("../src/assets/styles/btn.scss");
 html {
   scroll-behavior: smooth;
 }
@@ -14,5 +13,4 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
+}/*# sourceMappingURL=index.css.map */

@@ -3,7 +3,7 @@ import "./Contacts.scss";
 
 const Contacts = () => {
     return (
-        <section className="contacts" id="contacts">
+        <article className="contacts" id="contacts">
             <h2>Мои контакты</h2>
             <p>Напишите мне сообщение по любой из ссылок ниже!</p>
             <div className="container contacts__container" data-aos="fade-up">
@@ -19,7 +19,7 @@ const Contacts = () => {
                     </a>
                 ))}
             </div>
-        </section>
+        </article>
     );
 }
 

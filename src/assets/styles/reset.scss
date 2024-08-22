@@ -9,31 +9,31 @@
 }
   
   /* THEME CHANGE */
-  main.color-1 {
+  div.color-1 {
     --primary-hue: 270;
   }
   
-  main.color-2 {
+  div.color-2 {
     --primary-hue: 110;
   }
   
-  main.color-3 {
+  div.color-3 {
     --primary-hue: 228;
   }
   
-  main.color-4 {
+  div.color-4 {
     --primary-hue: 325;
   }
   
-  main.color-5 {
+  div.color-5 {
     --primary-hue: 0;
   }
   
-  main.color-6 {
+  div.color-6 {
     --primary-hue: 55;
   }
   
-  main.bg-2 {
+  div.bg-2 {
     --black-lightness: 96%;
     --dark-lightness: 60%;
     --light-lightness: 12%;
@@ -44,7 +44,7 @@
     --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
   }
   
-  main {
+  div {
     color: var(--color-dark);
     --color-primary: hsl(var(--primary-hue), 89%, 41%);
   }
@@ -57,21 +57,21 @@
   }
   
   /* GENERAL SECTION STYLES */
-  section {
+  article {
     padding: 10rem 0;
     background: var(--color-light);
     transition: var(--transition);
   }
   
-  section:nth-child(even) {
+  article:nth-child(even) {
     background: var(--color-white);
   }
   
-  section > h2 {
+  article > h2 {
     text-align: center;
   }
   
-  section > p {
+  article > p {
     text-align: center;
     margin: 0.5rem auto 4rem;
     width: 40%;
@@ -134,11 +134,11 @@ img {
         width: var(--container-width-md);
     }
 
-    section {
+    article {
         padding: 8rem 0;
     }
 
-    section > p {
+    article > p {
         width: 72%;
         margin-bottom: 3rem;
     }
@@ -170,7 +170,7 @@ img {
         padding: 0.6rem 1.5rem;
     }
 
-    section > p {
+    article > p {
         width: var(--container-width-md);
     }
 }

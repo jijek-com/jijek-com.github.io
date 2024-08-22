@@ -18,8 +18,7 @@ function App() {
   const mainRef = useRef();
 
   return (
-      <main className={`${themeState.primary} ${themeState.background}`}
-      ref={mainRef}>
+      <div className={`${themeState.primary} ${themeState.background}`} ref={mainRef}>
 
         <Navbar />
         <Header />
@@ -32,7 +31,7 @@ function App() {
         <Theme />
 
         <FloatingNav />
-      </main>
+      </div>
   );
 }
 

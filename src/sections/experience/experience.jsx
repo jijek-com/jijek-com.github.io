@@ -4,7 +4,7 @@ import './Experience.scss';
 
 const Experience = () => {
     return (
-        <section id="experience">
+        <article id="experience">
             <h2>Опыт работы</h2>
 
             <div className="container experience__container" data-aos="fade-up">
@@ -27,7 +27,7 @@ const Experience = () => {
                     </div>
                 ))}
             </div>
-        </section>
+        </article>
     );
 }
 

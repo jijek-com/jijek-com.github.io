@@ -14,7 +14,7 @@ const Header = () => {
       }, []);
       
     return (
-        <section id="header" className="header">
+        <article id="header" className="header">
             <div className="container header__container">
                 <div className="header__socials">
                     {header.map(item => (
@@ -54,7 +54,7 @@ const Header = () => {
                     </div> 
                 </div>
             </div>
-        </section>
+        </article>
     );
 }
 

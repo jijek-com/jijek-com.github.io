@@ -1,0 +1,31 @@
+.contacts__container {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.contacts__container a {
+  width: 5rem;
+  aspect-ratio: 1/1;
+  color: white;
+  background: var(--color-primary);
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  border: 2px solid transparent;
+  border-radius: var(--border-radius-1);
+}
+.contacts__container a:hover {
+  background: transparent;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  transform: translateY(-0.5rem);
+}
+
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width: 600px) {
+  .contacts__container {
+    gap: 1.5rem;
+  }
+}/*# sourceMappingURL=Contacts.css.map */

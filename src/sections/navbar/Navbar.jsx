@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <nav className="nav">
             <div className="container nav__container">
-                <a className="nav__logo" href="index.html">Jijek-com</a>
+                <a className="nav__logo" href="index.html">JijekCom</a>
 
                 <Scrollspy
                     offset={-400}

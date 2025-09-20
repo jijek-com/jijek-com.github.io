@@ -80,7 +80,7 @@ const portfolio = [
     title: "Social Media",
     desc: "Pet проект Social media. С использованием Бэм, scss, Js",
     tags: ['Scss', 'Js'],
-    demo: "https://social-media-kappa.vercel.app/",
+    demo: "https://jijek-com.github.io/social-media/",
     isShowGitBtn: false,
     github: "https://github.com/jijek-com/social-media",
   }

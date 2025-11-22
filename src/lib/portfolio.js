@@ -69,7 +69,7 @@ const portfolio = [
     title: "Job filters",
     desc: "Pet проект. С использованием Бэм, scss, React",
     tags: ['Scss', 'React'],
-    demo: "https://job-filters.vercel.app/",
+    demo: "https://jijek-com.github.io/job-filters-react/",
     isShowGitBtn: false,
     github: "https://github.com/jijek-com/js-filter-job",
   },
